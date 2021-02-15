@@ -1,0 +1,7 @@
+{
+  "name": "tp-ionic-novel",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
