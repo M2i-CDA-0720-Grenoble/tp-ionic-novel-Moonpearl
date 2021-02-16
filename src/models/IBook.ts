@@ -1,4 +1,5 @@
 import IChapter from "./IChapter";
+import IReview from "./IReview";
 
 export default interface IBook {
   id?: number;
@@ -6,4 +7,5 @@ export default interface IBook {
   pageCount: number;
   createdAt: string;
   chapters?: IChapter[];
+  reviews?: IReview[];
 }
